@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_140"
+        />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:text="hgkjkh"
+        android:layout_width="@dimen/dp_110"
+        android:layout_height="@dimen/dp_50"
+        android:layout_below="@id/iv_img"
+        android:gravity="center_horizontal"
+      />
+</RelativeLayout>
